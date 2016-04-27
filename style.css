@@ -1,6 +1,6 @@
 body {
   font-family: 'Raleway', sans-serif;
-  background: linear-gradient(rgba(255, 0, 0, 0.45),rgba(255, 0, 0, 0.45)),url(background3.jpg);
+  background: linear-gradient(rgba(255, 0, 0, 0.45),rgba(255, 0, 0, 0.45)),url(images/background3.jpg);
   background-size: cover;
 
 }
