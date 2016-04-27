@@ -1,0 +1,136 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  background: linear-gradient(rgba(255, 0, 0, 0.45),rgba(255, 0, 0, 0.45)),url(background3.jpg);
+  background-size: cover;
+
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+
+}
+
+.btn-rounded {
+  padding: 10px;
+  border-radius:5px;
+  background-color:#3C7FFF;
+  color:#FFFFFF;
+
+}
+
+.btn-rounded:hover {
+  background-color:#0544BD;
+}
+
+.info-color {
+  background-color: #0C81FF;
+
+}
+
+.card {
+  border: solid 1px #FFFFFF;
+  padding: 25px;
+  background-color: #FFFFFF;
+  margin-bottom: 30px;
+  border-radius: 3px;
+  box-shadow: 0px 0px 6px rgba(0,0,0,0.3);
+  text-align:center;
+  border-left: solid 4px #ff6666;
+}
+
+.profil-icon {
+  width:50px;
+  height:50px;
+  margin-left: auto;
+  margin-right: auto
+}
+
+
+
+ul {
+  list-style: none;
+  padding-left: 0px
+}
+
+h1 {
+  color: #ff6666;
+}
+
+h2 {
+  color: #ff6666;
+  font-size:20px;
+  margin-bottom: 50px;
+}
+
+h3 {
+  color: #383838;
+  font-weight: 700;
+  font-size:18px;
+}
+
+h4 {
+
+  color: 383838;
+  font-weight: 700;
+  font-size:16px;
+}
+
+p {
+  color:545454;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+  color: #ff6666;
+  border-bottom: 1px solid #F1F1F1
+}
+
+a:hover{
+border-bottom: 1px solid #ff6666
+  }
+
+li {
+  display:inline;
+  margin:20px;
+}
+
+#profil-picture {
+  border-radius:250px;
+  width:100px;
+  height:100px;
+}
+
+#presentation {
+  margin-bottom: 30px
+}
+
+.movie-title {
+  margin:0px;
+  text-align: left
+}
+
+.movie-picture {
+  vertical-align: top;
+  margin-right: 10px;
+}
+
+.movie-picture img {
+  width: 150px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border-bottom: solid 8px #ff6666;
+}
+
+.movie-description {
+   border-bottom: solid 1px #C7C7C7;
+   margin-bottom: 50px;
+   padding:0px 0px 20px 00px;
+}
+
+a.movie-description {
+  color:red;
+}
