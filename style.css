@@ -5,6 +5,20 @@ body {
 
 }
 
+#sidebar {
+  position: fixed;
+  width: 150px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #ff6666;
+
+}
+
+#page-content {
+  margin-left: 100px;
+}
+
 .container {
   width: 500px;
   margin: 0 auto;
@@ -60,7 +74,7 @@ h1 {
 h2 {
   color: #ff6666;
   font-size:20px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 h3 {
@@ -70,7 +84,6 @@ h3 {
 }
 
 h4 {
-
   color: 383838;
   font-weight: 700;
   font-size:16px;
@@ -93,9 +106,48 @@ a:hover{
 border-bottom: 1px solid #ff6666
   }
 
-li {
+.inline-list {
   display:inline;
   margin:20px;
+}
+
+.btn-side {
+  color:#FFFFFF;
+  text-align: center;
+  border-bottom: solid 1px #F1F1F1;
+  padding-bottom:20px;
+  padding-top:20px;
+}
+
+.fa {
+  margin-right: 10px;
+}
+
+.text-white {
+  color:#FFFFFF;
+}
+
+.text-white a{
+  color:#FFFFFF;
+  text-decoration: none;
+}
+
+.text-little {
+  font-size:10px;
+}
+
+.little-padding {
+  padding:5px;
+}
+
+.btn-side:hover {
+  background-color: red;
+}
+
+.btn-side a {
+  color:white;
+  text-decoration: none;
+  border-bottom: 0px
 }
 
 #profil-picture {

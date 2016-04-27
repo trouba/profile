@@ -5,9 +5,19 @@
     <title>My profile</title>
     <link rel="stylesheet" href="style.css">
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,700italic|Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
   </head>
   <body>
     <div class="background-image"></div>
+    <div id="sidebar">
+      <ul>
+
+        <li class="btn-side"><i class="fa fa-info-circle" aria-hidden="true"></i><a href="#infos">INFOS</a></li>
+        <li class="btn-side"><i class="fa fa-film" aria-hidden="true"></i><a href="#movies">MOVIES</a></li>
+        <li><p class="text-white text-little little-padding">This page has been coded during the <a href="https://www.lewagon.com/program" class="link-white">FullStack programm @LeWagon</a>.<p></li>
+      </ul>
+    </div>
+    <div id="page-content">
     <div class="container">
       <div class="card">
         <img id= "profil-picture" src="https://avatars.githubusercontent.com/u/11450992?v=3" alt="Nicolas Rouault">
@@ -19,59 +29,58 @@
           <a class="btn-rounded" href="mailto:trouba@gmail.com?Subject=Hello" target="_top">Contact me</a>
         </div>
       </div>
-      <div class="card">
+      <div class="card" id="infos">
         <h2>See for yourself</h2>
         <ul>
-          <li>
+          <li class="inline-list">
             <a href="https://www.facebook.com/nicolas.rouault">
             <img class ="profil-icon" src="images/facebook2.png">
           </a>
           </li>
-          <li>
+          <li class="inline-list">
             <a href="https://www.twitter.com/rouaunic">
             <img class ="profil-icon" src="images/twitter2.png">
           </a>
           </li>
-          <li>
+          <li class="inline-list">
             <a href="https://www.linkedin.com/nicolas.rouault">
             <img class ="profil-icon" src="images/linkedin2.png">
           </a>
           </li>
         </ul>
       </div>
-      <div class="card">
-      <h2>My favorite movies</h2>
-          <table>
-            <tr>
-              <td class= "movie-picture">
-                <img src="images/fantastic.jpg" alt="Fantastic Mr Fox">
-              </td>
-              <td>
-                <h3 class="movie-title">Fantastic Mr Fox</h3>
-                <p class="movie-description"><i>Fantastic Mr. Fox</i> is a 2009 American stop-motion animated comedy film based on the <a href="https://en.wikipedia.org/wiki/Roald_Dahl">Roald Dahl</a> children's novel of the same name. The film is about a fox who steals food each night from three mean and wealthy farmers. They are fed up with Mr. Fox's theft and try to kill him, so they dig their way into the foxes' home, but the animals are able to outwit the farmers and live underground.</p>
-              </td>
-            </tr>
-            <div class="movie-row">
-            <tr>
-              <td class= "movie-picture">
-                <img  src="images/bladerunner.png" alt="Blade Runner">
-              </td>
-              <td>
-                <h3 class="movie-title">Blade Runner</h3>
-                <p class="movie-description"><i>Blade Runner</i> is a 1982 American neo-noir hard science fiction film directed by <a href="https://en.wikipedia.org/wiki/Roald_Dahl">Ridley Scott</a>, and starring <a href="https://en.wikipedia.org/wiki/Roald_Dahl">Harrison Ford</a>, <a href="https://en.wikipedia.org/wiki/Roald_Dahl">Rutger Hauer</a>, <a href="https://en.wikipedia.org/wiki/Roald_Dahl">Sean Young</a>, and <a href="https://en.wikipedia.org/wiki/Roald_Dahl">Edward James Olmos</a>. The screenplay, written by <a href="https://en.wikipedia.org/wiki/Roald_Dahl">Hampton Fancher</a> and <a href="https://en.wikipedia.org/wiki/Roald_Dahl">David Peoples</a>, is a modified film adaptation of the 1968 novel <i>Do Androids Dream of Electric Sheep?</i> by <a href="https://en.wikipedia.org/wiki/Roald_Dahl">Philip K. Dick</a>.</p>
-              </td>
-            </tr>
-            <tr>
-              <td class= "movie-picture">
-                <img src="images/eternal_sunshine.jpg" alt="Eternal Sunshine">
-              </td>
-              <td>
-                <h3 class="movie-title">Eternal Sunshine of the spotless mind</h3>
-                <p class="movie-description"><i>Eternal Sunshine of the Spotless Mind</i> is a 2004 American romantic science-fiction comedy-drama film about an estranged couple who have erased each other from their memories, written by <a href="https://en.wikipedia.org/wiki/Roald_Dahl">Charlie Kaufman</a> and directed by <a href="https://en.wikipedia.org/wiki/Roald_Dahl">Michel Gondry</a>. The film uses elements of science fiction, psychological thriller, and a nonlinear narrative to explore the nature of memory and romantic love.</p>
-              </td>
-            </tr>
-          </table>
-
+      <div class="card" id="movies">
+        <h2>My favorite movies</h2>
+        <table>
+          <tr>
+            <td class= "movie-picture">
+              <img src="images/fantastic.jpg" alt="Fantastic Mr Fox">
+            </td>
+            <td>
+              <h3 class="movie-title">Fantastic Mr Fox</h3>
+              <p class="movie-description"><i>Fantastic Mr. Fox</i> is a 2009 American stop-motion animated comedy film based on the <a href="https://en.wikipedia.org/wiki/Roald_Dahl">Roald Dahl</a> children's novel of the same name. The film is about a fox who steals food each night from three mean and wealthy farmers. They are fed up with Mr. Fox's theft and try to kill him, so they dig their way into the foxes' home, but the animals are able to outwit the farmers and live underground.</p>
+            </td>
+          </tr>
+          <div class="movie-row">
+          <tr>
+            <td class= "movie-picture">
+              <img  src="images/bladerunner.png" alt="Blade Runner">
+            </td>
+            <td>
+              <h3 class="movie-title">Blade Runner</h3>
+              <p class="movie-description"><i>Blade Runner</i> is a 1982 American neo-noir hard science fiction film directed by <a href="https://en.wikipedia.org/wiki/Roald_Dahl">Ridley Scott</a>, and starring <a href="https://en.wikipedia.org/wiki/Roald_Dahl">Harrison Ford</a>, <a href="https://en.wikipedia.org/wiki/Roald_Dahl">Rutger Hauer</a>, <a href="https://en.wikipedia.org/wiki/Roald_Dahl">Sean Young</a>, and <a href="https://en.wikipedia.org/wiki/Roald_Dahl">Edward James Olmos</a>. The screenplay, written by <a href="https://en.wikipedia.org/wiki/Roald_Dahl">Hampton Fancher</a> and <a href="https://en.wikipedia.org/wiki/Roald_Dahl">David Peoples</a>, is a modified film adaptation of the 1968 novel <i>Do Androids Dream of Electric Sheep?</i> by <a href="https://en.wikipedia.org/wiki/Roald_Dahl">Philip K. Dick</a>.</p>
+            </td>
+          </tr>
+          <tr>
+            <td class= "movie-picture">
+              <img src="images/eternal_sunshine.jpg" alt="Eternal Sunshine">
+            </td>
+            <td>
+              <h3 class="movie-title">Eternal Sunshine of the spotless mind</h3>
+              <p class="movie-description"><i>Eternal Sunshine of the Spotless Mind</i> is a 2004 American romantic science-fiction comedy-drama film about an estranged couple who have erased each other from their memories, written by <a href="https://en.wikipedia.org/wiki/Roald_Dahl">Charlie Kaufman</a> and directed by <a href="https://en.wikipedia.org/wiki/Roald_Dahl">Michel Gondry</a>. The film uses elements of science fiction, psychological thriller, and a nonlinear narrative to explore the nature of memory and romantic love.</p>
+            </td>
+          </tr>
+        </table>
       </div>
     </div>
   </body>
